@@ -5,11 +5,11 @@ This is the code for using a LSTM for predicting the download number and time un
 You need a working java environment from version 1.7 upwards.
 
 ### Prerequisites
-You need to download/install the following packages:
+You need to download/install the following packages by clicking into the links:
 
-* [Deep learning for Java]: https://deeplearning4j.org/index.html
-* [Fast Dynamic Time Warping]: https://github.com/rmaestre/FastDTW
-* [Hierarchical clustering]: https://github.com/lbehnke/hierarchical-clustering-java/tree/master/src/main/java/com/apporiented/algorithm/clustering
+* [Deep learning for Java](https://deeplearning4j.org/index.html)--the deep learning framework used
+* [Fast Dynamic Time Warping](https://github.com/rmaestre/FastDTW)--The time warping library to compare similarity between sequences
+* [Hierarchical clustering](https://github.com/lbehnke/hierarchical-clustering-java/tree/master/src/main/java/com/apporiented/algorithm/clustering)--the clustering algorithms
 
 ## Data
 1. For LSTM input data, it is in the format specified by deeplearning4j (https://deeplearning4j.org/lstm.html#code). For training and testing, each has 2 folders: features and labels, where each file represents an instance (user). Each line in a feature file represents a feature vector for that user, and each line in a label file represents a label. There should be equal numbers of feature files and label files.
